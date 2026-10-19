@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="da">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Yori Jomo – tidløse sko og bælter med fokus på kvalitet." />
+    <title>Yori Jomo | Designet i København</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a class="logo" href="#">YORI JOMO</a>
+
+      <nav class="navigation" id="navigation">
+        <a href="#shop">SHOP</a>
+        <a href="#nyheder">NYHEDER</a>
+        <a href="#omos">OM OS</a>
+      </nav>
+
+      <div class="header-icons">
+        <form class="search-form" id="searchForm">
+          <input type="search" placeholder="Søg efter produkter..." aria-label="Søg" />
+        </form>
+
+        <button class="icon-button search-button" id="searchButton" aria-label="Åbn søgning" aria-expanded="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <circle cx="10.8" cy="10.8" r="6.5" />
+            <path d="m16 16 4.5 4.5" />
+          </svg>
+        </button>
+
+        <a class="icon-button" href="#footer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <rect x="3.5" y="3.5" width="17" height="17" rx="5" />
+            <circle cx="12" cy="12" r="4" />
+            <circle cx="17.6" cy="6.7" r="1" fill="currentColor" stroke="none" />
+          </svg>
+        </a>
+
+        <a class="icon-button" href="#shop" aria-label="Indkøbskurv">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M2.5 4h2.7l2.1 11.1a2 2 0 0 0 2 1.6h8.9a2 2 0 0 0 1.9-1.5L22 8H6" />
+            <circle cx="9.5" cy="20" r="1.2" />
+            <circle cx="18" cy="20" r="1.2" />
+          </svg>
+        </a>
+      </div>
+
+      <button class="menu-button" id="menuButton" aria-label="Åbn menu" aria-expanded="false">☰</button>
+    </header>
+
+    <main>
+      <!-- HERO -->
+      <section class="hero">
+        <img src="/billeder/HeroImage.png" alt="Yori Jomo sko" />
+        <div class="hero-overlay"></div>
+
+        <div class="hero-content">
+          <p class="eyebrow">YORI JOMO</p>
+          <h1>Designet i København.<br />Håndlavet i Toscana.</h1>
+          <p class="hero-text">Håndlavede sko til kvinder, der vælger med omtanke.</p>
+          <a href="#shop" class="button button-light">UDFORSK KOLLEKTIONEN</a>
+        </div>
+      </section>
+
+      <!-- OM BRANDEN -->
+      <section class="intro section" id="omos">
+        <div class="intro-image">
+          <img src="/billeder/billede2.png" alt="Yori Jomo sko i hverdagen" />
+        </div>
+
+        <div class="intro-content">
+          <h2>MERE END BARE EN SKO</h2>
+          <p>Yori Jomo er kvalitet, der kan mærkes, og stil, der holder. Vi tror på tidløst design, gode materialer og sko, der kan bruges igen og igen.</p>
+
+          <h3>VÆLG MINDRE. VÆLG RIGTIGT.</h3>
+          <p>Færre, bedre valg. Gennemtænkte designs, der bliver en naturlig del af garderoben sæson efter sæson.</p>
+        </div>
+      </section>
+
+      <!-- SHOP-KNAP -->
+      <section class="shop-link section" id="shop">
+        <a href="#nyheder" class="button button-dark">SHOP</a>
+      </section>
+
+      <!-- NYHEDER -->
+      <section class="products section" id="nyheder">
+        <h2 class="section-heading">NYHEDER</h2>
+
+        <div class="product-grid">
+          <a class="product-card" href="#shop">
+            <div class="product-image">
+              <img src="/billeder/card1.png" alt="Alba Leather Nappa Black" />
+            </div>
+          </a>
+
+          <a class="product-card" href="#shop">
+            <div class="product-image">
+              <img src="/billeder/card2.png" alt="Penelope Ballerina Nappa Champagne" />
+            </div>
+          </a>
+
+          <a class="product-card" href="#shop">
+            <div class="product-image">
+              <img src="/billeder/card3.png" alt="Clio Flats Python Creamy" />
+            </div>
+          </a>
+        </div>
+      </section>
+
+      <!-- KATEGORIER -->
+      <section class="categories">
+        <a class="category-card" href="#shop">
+          <img src="/billeder/sko.png" alt="Yori Jomo sko" />
+          <span class="category-title">SKO</span>
+          <span class="button button-light">SHOP SKO</span>
+        </a>
+
+        <a class="category-card" href="#shop">
+          <img src="/billeder/bælter.png" alt="Yori Jomo læderbælter" />
+          <span class="category-title">BÆLTER</span>
+          <span class="button button-light">SHOP BÆLTER</span>
+        </a>
+      </section>
+
+      <!-- FORHANDLERE -->
+      <section class="retailers section">
+        <h2 class="section-heading">RETAILERS</h2>
+
+        <div class="retailer-grid">
+          <div>
+            <h3>DANMARK</h3>
+            <p>
+              Atelier Copenhagen<br />
+              Collett, København<br />
+              Høyer, Aarhus<br />
+              Le Muse, København<br />
+              Udvalgte forhandlere
+            </p>
+          </div>
+
+          <div>
+            <h3>NORGE</h3>
+            <p>
+              Bolina, Stabekk<br />
+              Envelope Oslo<br />
+              F5, Oslo<br />
+              Udvalgte forhandlere
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer" id="footer">
+      <a class="footer-logo" href="#">YORI JOMO</a>
+
+      <div class="footer-links">
+        <a href="#omos">Om Yori Jomo</a>
+        <a href="#footer">Kundeservice</a>
+        <a href="#footer">Vilkår</a>
+        <a href="#footer">Politikker</a>
+      </div>
+
+      <div class="footer-links">
+        <span>© 2026 Yori Jomo</span>
+        <a href="#footer">Instagram</a>
+        <a href="mailto:info@yorijomo.com">Kontakt</a>
+      </div>
+
+      <form class="newsletter" id="newsletter">
+        <h2>Tilmeld dig vores nyhedsbrev</h2>
+        <label for="email">E-mail</label>
+
+        <div class="newsletter-input">
+          <input id="email" type="email" placeholder="E-mail" required />
+          <button type="submit" aria-label="Tilmeld">→</button>
+        </div>
+
+        <p class="form-message" id="formMessage" aria-live="polite"></p>
+      </form>
+    </footer>
+
+    <script>
+      const header = document.querySelector(".header");
+      const searchButton = document.querySelector("#searchButton");
+      const searchForm = document.querySelector("#searchForm");
+      const searchInput = searchForm.querySelector("input");
+      const menuButton = document.querySelector("#menuButton");
+
+      searchButton.addEventListener("click", () => {
+        const isOpen = header.classList.toggle("search-open");
+        searchButton.setAttribute("aria-expanded", isOpen);
+
+        if (isOpen) {
+          searchInput.focus();
+        } else {
+          searchInput.value = "";
+        }
+      });
+
+      searchInput.addEventListener("keydown", (event) => {
+        if (event.key === "Escape") {
+          header.classList.remove("search-open");
+          searchButton.setAttribute("aria-expanded", "false");
+          searchInput.value = "";
+          searchButton.focus();
+        }
+
+        if (event.key === "Enter") {
+          event.preventDefault();
+          const query = searchInput.value.trim();
+
+          if (query) {
+            alert("Søgning efter: " + query + ". Forbind søgningen til webshoppen for at vise produkter.");
+          }
+        }
+      });
+
+      menuButton.addEventListener("click", () => {
+        const isOpen = header.classList.toggle("menu-open");
+        menuButton.setAttribute("aria-expanded", isOpen);
+      });
+
+      document.querySelector("#newsletter").addEventListener("submit", (event) => {
+        event.preventDefault();
+        document.querySelector("#formMessage").textContent = "Tak for din interesse!";
+      });
+    </script>
+  </body>
+</html>
